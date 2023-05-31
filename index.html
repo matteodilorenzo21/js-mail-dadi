@@ -17,7 +17,7 @@
 
     <!-- JS LINK -->
     <script defer src="JS/email.js"></script>
-    <!--<script defer src="JS/dice.js"></script>-->
+    <script defer src="JS/dice.js"></script>
 
     <title>Mail - Dice</title>
 
@@ -33,11 +33,24 @@
 
     </header>
 
-    <div class="container mx-auto">
-        <div class="d-flex flex-column">
-            <h2 class="display-3 text-warning text-center" id="log-placeholder"></h2>
+    <main>
+
+        <div class="section">
+            <div class="container">
+                <div class="d-flex flex-column">
+                    <h2 class="display-3 text-warning text-center" id="log-placeholder"></h2>
+                </div>
+            </div>
         </div>
-    </div>
+
+        <div class="section text-warning">
+            <button id="play-btn">Gioca</button>
+            <p id="user-dice"></p>
+            <p id="cpu-dice"></p>
+            <p id="total-result"></p>
+        </div>
+
+    </main>
 
 </body>
 
