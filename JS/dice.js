@@ -15,7 +15,7 @@ playBtn.addEventListener('click', function() {
     let userThrow = Math.floor(Math.random() * 6) + 1;
     userResult.innerText = 'Hai fatto: ' + userThrow;
     let cpuThrow = Math.floor(Math.random() * 6) + 1;
-    cpuResult.innerText = 'La CPU fatto: ' + cpuThrow;
+    cpuResult.innerText = 'La CPU ha fatto: ' + cpuThrow;
     console.log(userResult, cpuResult)
 
     if (userThrow > cpuThrow) {

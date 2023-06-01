@@ -19,7 +19,6 @@ inputBtn.addEventListener('click', function() {
     
     let userEmail = inputEmail.value
     
-
     let check = false;
 
     //controllo che il valore inserito dall'user sia presente nell'Array
