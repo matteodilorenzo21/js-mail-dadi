@@ -15,3 +15,16 @@ Mail
     **se non** è presente, avverto l'utente che non può accedere;<br>
     **altrimenti**, do il benvenuto all'utente;<br>
 3. Stampo in pagina il messaggio.
+
+# GIOCO DEI DADI
+Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+Stabilire il vincitore, in base a chi fa il punteggio più alto e poi stamparlo.
+
+# Dice - Steps
+
+0. Prendo dal DOM gli elementi desiderati;
+1. Creo un Event Listener al bottone che generi un numero casuale da 1 a 6 per l'utente e lo stesso per la cpu;
+2. Controllo quale dei due valori sia il più alto:<br>
+    **se** l'utente ha generato il numero maggiore stampo il messaggio di vittoria;<br>
+    **se** la cpu ha generato il numero maggiore stampo il messaggio di sconfitta;<br>
+    **altrimenti** stampo il messaggio di pareggio;
